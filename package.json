@@ -1,0 +1,20 @@
+{
+  "name": "shzk-wa-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot minimal + modular using baileys (pairing code + QR fallback)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Tamaaaxzcw",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^8.0.0",
+    "pretty-ms": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
